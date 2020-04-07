@@ -1,0 +1,16 @@
+.MainContent-wrapper {
+    background-color: #F6F6F5;
+}
+.MainContent-wrapper > h2 {
+    color: #00568F;
+}
+
+.About {
+    display: flex;
+    justify-content: space-around;
+}
+.About > div > svg {
+    width: 100px;
+    height: 100px;
+    color: #00568F;
+}

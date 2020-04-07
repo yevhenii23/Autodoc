@@ -1,0 +1,43 @@
+.Footer-wrapper {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #00568F;
+}
+
+.Icons-social  {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: inherit;
+}
+
+.Icons-social > li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+
+}
+.Icons-social > li:hover {
+    color: yellow;
+    border: 1px solid yellow;
+}
+
+.Icons-social > li > svg {
+    height: 30px;
+    width: 30px;
+}
+
+.Text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
