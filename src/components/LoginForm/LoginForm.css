@@ -1,7 +1,22 @@
 .LoginForm-wrapper {
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
+.LoginForm-wrapper >h3 {
+    color: #00568F;
+}
 .Input-wrapper {
+    display: flex;
+    flex-direction: column;
     width: 500px;
-    margin: 10px;
+    margin: auto;
+}
+
+.Input-wrapper > div {
+    margin-top: 0.6rem;
+}
+
+.Error {
+    color: red;
 }

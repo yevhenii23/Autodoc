@@ -1,13 +1,20 @@
 .MainContent-wrapper {
     background-color: #F6F6F5;
+    margin-top: 0px;
+    padding-bottom: 3rem;
 }
 .MainContent-wrapper > h2 {
     color: #00568F;
+    margin: auto;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 
 .About {
     display: flex;
     justify-content: space-around;
+    font-weight: bold;
+    color: #00568F;
 }
 .About > div > svg {
     width: 100px;

@@ -1,6 +1,5 @@
 .Header-wrapper {
     background-color: #00568F;
-    width: 100vw;
     display: flex;
     justify-content: space-around;
 }
@@ -11,7 +10,7 @@
 }
 
 .Header-wrapper > ul > li {
-    padding: 10px;
+    padding: 1.2rem;
     color: white;
 }
 .Header-wrapper > ul > li:hover {
@@ -20,4 +19,28 @@
 
 .Header-wrapper > h3 {
     color: white;
+}
+
+.Logo {
+    height: 35px;
+}
+
+.Image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Phone-wrapper {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Phone-wrapper > h3 {
+    padding-left: 0.6rem;
+    padding-right: 1rem;
+}
+.Phone-wrapper:hover {
+    color: yellow;
 }

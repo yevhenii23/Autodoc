@@ -3,14 +3,14 @@ import './MainContent.css';
 import { GiMechanicGarage } from 'react-icons/gi';
 import { IoIosPricetag } from 'react-icons/io';
 import { GoGear } from 'react-icons/go';
-import { WiTime8 } from 'react-icons/wi';
+import { GiSpeedometer } from 'react-icons/gi';
 
 
 
 const MainContent:React.FC = () => {
     return(
         <div className="MainContent-wrapper">
-            <h2>Наши приймущества</h2>
+            <h2>Наши преймущества</h2>
             <div className="About">
                 <div>
                     <GiMechanicGarage/>
@@ -25,7 +25,7 @@ const MainContent:React.FC = () => {
                     <p>Качественные запчасти</p>
                 </div>
                 <div>
-                    <WiTime8/>
+                    <GiSpeedometer/>
                     <p>Реальные сроки</p>
                 </div>
             </div>

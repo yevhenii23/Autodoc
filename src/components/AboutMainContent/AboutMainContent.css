@@ -1,0 +1,30 @@
+.AboutContent-wrapper {
+    background-color: #F6F6F5;
+    padding-bottom: 3rem;
+}
+.AboutContent-wrapper > h2 {
+    color: #00568F;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+
+.AboutIcons-wrapper > div > svg {
+    width: 100px;
+    height: 100px;
+    color: #00568F;
+}
+
+.AboutIcons-wrapper > div >  p {
+    font-weight: bold;
+    color: #00568F;
+}
+
+.AboutIcons-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.AboutIcons-wrapper > div > span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #00568F;
+}
